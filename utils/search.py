@@ -5,7 +5,7 @@ API returned on the answer text; queries come only from google_search_call
 steps; the search-suggestions widget is the HTML Google returned.
 """
 
-from _future_ import annotations
+from __future__ import annotations
 
 from dataclasses import asdict, dataclass, field
 from typing import Any

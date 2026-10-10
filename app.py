@@ -4,7 +4,7 @@ Streamlit entry point. UI only: Gemini access lives in utils/gemini.py,
 conversation state in utils/conversation.py, grounding handling in utils/search.py.
 """
 
-from _future_ import annotations
+from __future__ import annotations
 
 import logging
 

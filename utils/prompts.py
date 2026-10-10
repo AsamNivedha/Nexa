@@ -6,7 +6,7 @@ interaction they are sent with. Nexa therefore rebuilds the system instruction
 on every turn with build_system_instruction().
 """
 
-from _future_ import annotations
+from __future__ import annotations
 
 from datetime import date
 

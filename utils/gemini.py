@@ -12,7 +12,7 @@ so Nexa only sends the new message. tools and system_instruction are
 interaction-scoped, so they are re-sent on every call.
 """
 
-from _future_ import annotations
+from __future__ import annotations
 
 import logging
 from dataclasses import dataclass

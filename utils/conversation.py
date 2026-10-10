@@ -16,7 +16,7 @@ Each conversation keeps its own id, which is why switching conversations
 restores the right context.
 """
 
-from _future_ import annotations
+from __future__ import annotations
 
 import time
 import uuid

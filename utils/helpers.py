@@ -5,7 +5,7 @@ populated structures are all handled by read_field(), so a small change in
 response shape degrades gracefully instead of crashing the app.
 """
 
-from _future_ import annotations
+from __future__ import annotations
 
 import os
 import re
